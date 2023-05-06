@@ -7,10 +7,10 @@
         <meta name="keywords" content="registro reportes formularios">
         <meta name="authors" content="users">
         <title>Registro</title>
-        <link rel='stylesheet' href='css/registro.css'>
+        <link rel="stylesheet" href="Registro.css">
     </head>
     <body>
-      <nav class='navv'>
+        <nav class='navv'>
             <div class="navicon">
               <div></div>
             </div>
@@ -22,35 +22,36 @@
                 
               </ul>
         </nav>
+        <div class="registro">
+        <form class="regis">
+            <h1 class='titulo'>Registro de Contactos</h1>
+            <label class='label' for="dni">DNI:</label>
+            <input class='input' type="text" id="dni" name="dni"><br>
 
-        <header>
-            <h1 class='titulo'>REGISTRO DE CONTACTOS</h1>
-        </header>
-        <form>
-            <label for="dni">DNI:</label>
-            <input type="text" id="dni" name="dni"><br>
+            <label class='label' for="nombre">Nombre:</label>
+            <input class='input' type="text" id="nombre" name="nombre"><br>
 
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br>
+            <label class='label' for="apellido-paterno">Apellido Paterno:</label>
+            <input class='input' type="text" id="apellido-paterno" name="apellido-paterno"><br>
 
-            <label for="apellido-paterno">Apellido Paterno:</label>
-            <input type="text" id="apellido-paterno" name="apellido-paterno"><br>
+            <label class='label' for="apellido-materno">Apellido Materno:</label>
+            <input class='input' type="text" id="apellido-materno" name="apellido-materno"><br>
 
-            <label for="apellido-materno">Apellido Materno:</label>
-            <input type="text" id="apellido-materno" name="apellido-materno"><br>
+            <label class='label' for="edad">Edad:</label>
+            <input class='input' type="number" id="edad" name="edad"><br>
 
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad"><br>
+            <label class='label' for="correo">Correo Electrónico:</label>
+            <input class='input' type="email" id="correo" name="correo"><br>
 
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo"><br>
+            <label class='label' for="direccion">Dirección:</label>
+            <input class='input' type="text" id="direccion" name="direccion"><br>
 
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion"><br>
-
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono"><br>
+            <label class='label' for="telefono">Teléfono:</label>
+            <input class='input' type="tel" id="telefono" name="telefono"><br>
                     
-            <input type="submit" value="Guardar">
-            <input type="submit" value="Limpiar">
+            <input class='boton' type="submit" value="Guardar">
+            <input class='boton' type="submit" value="Limpiar">
+        </div>
         </form>
+    </body>
+</html>
