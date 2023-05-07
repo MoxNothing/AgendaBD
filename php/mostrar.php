@@ -15,11 +15,14 @@
                 <li><a href='bienvenida.php'`>Inicio</a></li>
                 <li><a href='Registro de contactos.php'>Registro</a></li>
                 <li><a href='mostrar.php'>Mostrar</a></li>
-                <li><a href='login.php'>Salir</a></li>
+                <li><a href='log.php'>Salir</a></li>
                 
             </ul>
         </nav>
         <h1 class='titulo'>Mostrar Contactos</h1>
+        </body>
+        <?php
+                include("mos.php");
+                ?>
+        </htlml>
         
-    </body>
-</htlml>
